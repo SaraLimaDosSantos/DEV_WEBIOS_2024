@@ -1,0 +1,26 @@
+body{
+   /* background-color: rgb(0, 0, 0);*/
+    background-color:#649ea7;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+p{
+    font-family: "Varela Round", sans-serif;
+    font-size: 2em;
+}
+
+h1{
+    font-size: 70px;
+}
+ 
+/*ajustar o tamanho da imagem*/
+img{
+    height: 800px;
+    width: 1000px;
+}
+  
