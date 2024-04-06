@@ -1,0 +1,27 @@
+body{
+    background-color: #b3e9f3 ;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+h1{
+    color: #6590d1;
+    text-shadow: 3px 3px 3px #48789f;
+    text-align: center;
+}
+
+/*Mudei o tamanho pois não dava pra vizualizar a imagem*/
+img{
+    height: 500px;
+    width: 800px;
+    box-shadow: 3px 3px 3px #48789f;
+}
+
+
+
