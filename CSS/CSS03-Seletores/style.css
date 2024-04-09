@@ -1,0 +1,33 @@
+/* Seletor pai> o que for aplicadodentro dele sera aplicado na pagina web interira incluindo na tag body*/
+*{
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.mudaapenasEsse{
+    text-align: center;
+    color: aqua;
+}
+
+.corAzul{
+    color: blue;
+    font-weight: 700;
+    font-size: 20px;
+    text-shadow: 10px 10px 10px palevioletred;
+}
+
+#mudancaUnica{
+    font-size: 20px;
+    color: darkorange;
+    line-height: 20px;
+}
+
+#outroNome{
+    text-align: center;
+    text-shadow: 10px 10px 10px red;
+}
+
+#outroNome02{
+    text-align: center;
+    text-shadow: 10px 10px 10px pink;
+}
