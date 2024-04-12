@@ -1,11 +1,47 @@
+body{
+  /*margin-top: 0%;
+  margin-right: 0%;
+  margin-bottom: 0%;
+  margin-left: 0%;*/
+
+  margin: 0%;
+
+  /*Px e % podem ser usados da mesma forma*/
+
+  /*Assim como a padding podemos apreviar os 4 elementos apenas para um*/
+
+  /* Definição para margin:Seu elemento trabalha na área externa de seu site*/
+}
 /* Top, Right, Bottom e Left, essa é a sequencia certa*/
-#secao{
-    border: solid 1px #000;
-    padding-top: 10px;
+#secao {
+  border: 1px solid #000;
+
+  /* Definição para padding:Seu elemento atua na área interna do site*/
+
+  /*top=Topo Right=Direita Bottom=Base Left=Esquerda*/
+
+  /*padding-top: 10px;
     padding-right: 50px;
     padding-bottom: 20px;
-    padding-left: 50px;
+    padding-left: 50px;*/
+
   /* Mesmo elemento so que reduzido*/
-  /*top=Topo Right=Direita Bottom=Base Left=Esquerda*/
-    padding: 10px 50px 20px 50px;
+  padding: 10px 50px 20px 50px;
+  margin-bottom: 20px;
+
+  /* Se caso eu adicionasse na #secao1 uma marrgin-top(topo) ele iria
+   somar com a margin-bottom, exemplo margin-top:20px e margin-bottom:20px,
+   iria somar 40px de distancia da margem um do outro, seguir um padrão só com um elemento
+   como colocar a margin-bottom na secao1,2 e 3*/
+}
+
+#secao2 {
+  border: 1px solid rgb(0, 106, 255);
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#secao3 {
+  border: 1px solid #e40dce;
+  padding: 10px;
 }
