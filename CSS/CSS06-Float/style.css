@@ -10,18 +10,22 @@ body{
 img{
     float: left;
     width: 600px; height: 500px;
+    margin: 10px;
 }
 
-#imagem2{
+#imagaem2{
     float: right;
-    width: 600px; height: 500px;
+    width: 400px; height: 400px;
     border: 1px solid #000;
+
 }
 
 p{
     color: #000;
     font-size: 25px;
     font-family: "Barlow Condensed", sans-serif;
+    text-align: justify;
+    
 
 }
 
@@ -30,6 +34,19 @@ h1{
     font-family: "Oswald", sans-serif;
 }
 
+h2{
+    color: rgb(223, 12, 12);
+    font-family: "Oswald", sans-serif;
+}
+
 #paragrafo{
+    border: 1px solid #fbe606;
+}
+
+li{
+    text-align: left;
+}
+
+ol{
     border: 1px solid #fbe606;
 }
