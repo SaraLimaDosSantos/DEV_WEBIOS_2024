@@ -13,7 +13,33 @@ min-width / max-width
 */
 
 @media (max-width:450px){
+    body{
+        background-color:  #00b4fc;
+    }
+
     img{
         width: 200px;
+    }
+
+    img:hover{
+        border: 1px solid #005bc5;
+        border-radius: 5px;
+        box-shadow: 10px 10px 10px #001449;
+    }
+}
+
+@media(min-width:452px){
+    body{
+        background-color: #162da7;
+    }
+
+    img{
+        width: 1100px;
+    }
+
+    img:hover{
+        border: 3px solid #2e3dba ;
+        border-radius: 12px;
+        box-shadow: 12px 12px 12px #5f5de1;
     }
 }
