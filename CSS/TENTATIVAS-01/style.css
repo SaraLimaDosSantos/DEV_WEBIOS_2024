@@ -1,0 +1,28 @@
+body{
+   background-color: #4b5f7a;
+   background-image: url(./fotos\ de\ fundo.jpg);
+   background-repeat: repeat;
+   background-size: 100%;
+   background-attachment: scroll;
+   display: flex;
+   flex-direction: column;
+   min-height: auto;
+   text-align: 700px;
+   font-size: 20px;
+   margin: auto;
+   width: 80%;
+   font-family: "Oswald", sans-serif;
+
+}
+
+h1{
+    text-align: center;
+    opacity: 1;
+}
+
+
+#imagem01{
+    float: left;
+    width: 700px; height: 400px;
+    margin: 10px;
+}

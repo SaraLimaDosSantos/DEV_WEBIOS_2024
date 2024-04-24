@@ -27,7 +27,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 800%;
-    font-size: 25x;
+    font-size: 25px;
     margin: 0%;
     font-family: "Oswald", sans-serif;
 }
