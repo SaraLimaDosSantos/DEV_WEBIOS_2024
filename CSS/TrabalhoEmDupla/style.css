@@ -1,0 +1,134 @@
+
+body {
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(./pexels-sergio-souza-5047706-scaled-1.jpg);
+}
+
+ul {
+  list-style: none
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header  {
+  height: calc(100vh - 150px);
+  color: #f56c11;
+  padding: 20px 0;
+}
+
+#header{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li:hover {
+    color: #f56c11;
+    transition: .4s;
+  }
+
+h1{
+    margin: 0;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li:first-child{
+    margin: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #da7e41;
+}
+
+img{
+    width: 50%;
+}
+
+
+
+
+/* button */
+#button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  border: 0;
+  cursor: pointer;
+  background-color: rgb(248, 124, 7);
+  color: #fff;
+}
+
+/* PACOTES */
+
+.Pacotes {
+  background-color: rgba(235, 231, 231, 0.363);
+  padding: 25px;
+  margin: auto;
+  max-width: 950px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.Pacotes .Locais {
+  /* background: #333; */
+  margin: auto;
+  max-width: 950px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+
+
+/* SERVIÇOS */
+
+.Servicos {
+  padding: 15px;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 400px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+}
+
+/* Especial para Mapa */
+@media (max-width: 902px) {
+  .contato {
+    padding: 60px;
+  }
+
+  .contato .contato-card {
+    left: 40px;
+  }
+}
+
+@media (max-width: 850px) {
+  .contato {
+    padding: 40px 0  ;
+  }
+
+  .contato .contato-card {
+    position: static;
+    margin: 40px auto;
+  }
+}

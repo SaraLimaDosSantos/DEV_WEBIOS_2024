@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Coneccta Linhas Aéreas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Coneccta Linhas Aéreas</h1>  
+<div class="container">
+    <header>
+      <div id="header">
+       <nav>
+        <ul>
+          <li><a href="#Home">Inicio</a></li>
+          <li><a href="#Sobre">Sobre</a></li>
+          <li><a href="#Pacotes">Pacotes</a></li>
+          <li><a href="#Contatos">Contato</a></li>
+          <li><a href="#Faq">FAQ</a></li>
+        </ul>
+      </nav>
+      </div>
+      <div id="img">
+        <img src="./avião.jpg" alt="avião">
+    </div>
+  <div class="logo">
+    <img src="" alt="">
+  </div>
+      <div class="button">
+        <button>
+          <a href="butto">Login</a>
+        </button>
+      </div>
+    </header>
+   
+    <main>
+      <div class="top-main">
+        <div class="titulo">
+          <h1>Descubra sua próxima viagem</h1>
+  
+          <div class="bottom-main">
+            <div class="search">
+              <div id="locais">
+                <label for="">Locais</label>
+                <select name="Select" id="Pacotes">
+                  <option value="valor1">Brasil</option>
+                  <option value="valor1">Estados Unidos</option>
+                  <option value="valor1">Chile</option>
+                  <option value="valor1">Italia</option>
+                  <option value="valor1">Africa</option>
+                </select>
+              </div>
+      
+              <div id="hotel">
+                <label for="">Hotel</label>
+                <select name="Select" id="Servicos">
+                  <option value="hotel1">(BRA)São Paulo</option>
+                  <option value="hotel2">(EUA)Nova Iorque</option>
+                  <option value="hotel3">(CHI)Santiago</option>
+                  <option value="hotel4">(ITA)Grecia</option>
+                  <option value="hotel5">(AFR)Madagascar</option>
+                </select>
+              </div>
+
+              <div id="Data">
+                <label for="">Selecione uma Data</label>
+                <input placeholder="01/01/2024" id="date" type="date">
+              </div>
+            </div>
+
+          <h3>Acumule Pontos Coneccta Pass e Pontos Qualificáveis</h3>
+        </div>
+      </div>
+        <!--The div element for the map -->
+    <div id="map"></div>
+  </section>
+
+
+  <script>
+    // feather icons
+    feather.replace();
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+            });
+        });
+    });
+    // Initialize and add the map
+    function initMap() {
+      // The location of Uluru
+      // var uluru = {lat: -25.344, lng: 131.036};
+      var uluru = { lat: -3.71839, lng: -38.5434 };
+      // The map, centered at Uluru
+      var map = new google.maps.Map(
+        document.getElementById('map'), { zoom: 4, center: uluru });
+      // The marker, positioned at Uluru
+      var marker = new google.maps.Marker({ position: uluru, map: map });
+    }
+  </script>
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap">
+  </script>
+  
+        <div class="button-search">
+          <button id="button-search">
+            <img src="/assets/icon-search.svg" alt="" srcset="">
+          </button>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>

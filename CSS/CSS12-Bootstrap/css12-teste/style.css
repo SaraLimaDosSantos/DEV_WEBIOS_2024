@@ -1,35 +1,23 @@
-*{
-    background-color: blue;
-}
-#cabeçalho{
+#container{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    align-self: center;
     text-align: center;
-    flex-direction: unset;
 }
 
-#navegador01{
-    border: solid 2px pink;
-    height: auto;
-    background-color: blueviolet;
+h3{
+    background-color:  cornflowerblue;
 }
 
-#navegador02{
-    height: auto;
-    border: solid 2px pink;
-    background-color: blueviolet;
-}    
-
-#navegador03{
-   height: auto;
-   border: solid 2px pink;
-   background-color: blueviolet;
+body{
+    border-color: blueviolet;
 }
 
-h1{
+header{
+    background-color: aqua;
+}
+
+p{
     text-align: center;
-    color: aqua;
-    opacity: 1;
-    font-style: italic;
-    font-size: 200%;
 }
