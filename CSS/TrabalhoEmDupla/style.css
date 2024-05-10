@@ -3,98 +3,93 @@ body {
   margin: auto;
   font-family: 'Montserrat', sans-serif;
   background-image: url(./pexels-sergio-souza-5047706-scaled-1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  align-items: center;
 }
 
-ul {
-  list-style: none
+h1{
+  margin: 0;
+  left: 100px;
+  background-color: #db7027;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
 
 header  {
-  height: calc(100vh - 150px);
-  color: #f56c11;
+  color: black;
   padding: 20px 0;
+  margin: 0;
 }
 
 #header{
     width: 80%;
-    margin: 0 auto;
+    margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+    }
+    
 
 header nav ul li:hover {
-    color: #f56c11;
+    color: black;
     transition: .4s;
-  }
 
-h1{
-    margin: 0;
-}
+    
+  }
 
 nav ul{
     list-style: none;
-    padding: 0;
-}
+      padding: 0;
+    
+    }
 
 nav ul li{
     display: inline;
     margin-left: 20px;
+   
 }
 
 nav ul li:first-child{
-    margin: 0;
+  left: auto;
+  margin: 0;
 }
 
 nav ul li a{
     text-decoration: none;
-    color: #da7e41;
+    color: black;
 }
 
 img{
     width: 50%;
+  
+  
 }
-
-
-
 
 /* button */
 #button {
+  width: 10%;
+  left: auto;
   padding: 10px 15px;
   border-radius: 8px;
   font-weight: bold;
-  border: 0;
   cursor: pointer;
-  background-color: rgb(248, 124, 7);
+  background-color: black;
   color: #fff;
 }
 
 /* PACOTES */
 
-.Pacotes {
+#locais{
   background-color: rgba(235, 231, 231, 0.363);
   padding: 25px;
   margin: auto;
   max-width: 950px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-
-}
-
-.Pacotes .Locais {
-  /* background: #333; */
-  margin: auto;
-  max-width: 950px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
+  align-items: baseline;
+  justify-content: space-around;
+  height: 50vh;
+  border: 1px solid black;
 }
 
 
