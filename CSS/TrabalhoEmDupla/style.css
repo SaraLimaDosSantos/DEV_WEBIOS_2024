@@ -55,7 +55,7 @@ nav a:hover {
     border-color: black;
 }
 body {
-    background-image: url('imgAviao.jpeg');
+    background-image: url('./pexels-sergio-souza-5047706-scaled-1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;      
@@ -98,6 +98,7 @@ footer {
     color: var(--color01);
     text-align: center;
     text-shadow: 0px 0px 10px var(--color03);
+    float: left;
     
     background-position: bottom;
 }
