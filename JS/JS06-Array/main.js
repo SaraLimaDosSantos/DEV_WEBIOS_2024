@@ -1,59 +1,59 @@
-let pessoa = {
-    corDosOlhos: "verde",
-    altura: 1.70,
-    corCabelo: "Preto",
-    nome: "Sara",
-    sobrenome: "Lima",
-    hobbies:["futebol", "LOL", "Tocar guitarra"],
-    endereco: {
-            rua: "jao medeiro",
-            numero: 234,
-            cidade: "são Paulo",
-            estado: "SP"
+var numeros = [-2, 40, 16, 111, 33, 64]
 
-    }
-}
-
-console.log(pessoa)
-console.log(pessoa.nome)
-console.log(pessoa.hobbies)
-console.log(pessoa.hobbies[1])
-console.log(pessoa.endereco)
-console.log(pessoa.endereco.estado)
+console.log(numeros)
+console.log(numeros[3])
 
 console.clear()
 
-let tarefa = [
-    {
-        id: 1,
-        isPronta: true,
-        nomeTarefa: "pular"
-    },
-    {
-        id: 2,
-        isPronta: false,
-        nomeTarefa: "comer"
+var exercicio = ["Rafaella", "Rafael", "Gabriel", "Polly", "Sylvia", "Natália", "Mãe", "João"]
+console.log(exercicio[3], exercicio[7])
 
-    },
-    {
-        id: 3,
-        isPronta: true,
-        nomeTarefa: "fumar"
-    }
-
+var bid = [
+    ["Banana", "Maça", "Morango"],
+    ['Amora', true, 1],
+    [null, "Uva", -350]
 ]
 
-console.log(tarefa)
-console.log(tarefa[1])
-console.log(tarefa[1].nomeTarefa)
+console.log(bid)
+// console.log(bid[1][1])
 
 console.clear()
 
-let recebeJSON = JSON.stringify(pessoa);
+var mercado = [
+    ["Pipoca", "arroz", "fejão", "batata"], 
+    ["molho de tomate", "alface", "leite em pó", "detergente"],
+    ["leite de coco", "candida", "maçã", "vinagre"],
+    ["bolacha", "azeite", "limão", "shampoo"]
+]
 
-console.log(recebeJSON)
+console.log(${mercado[0][2]} \n ${mercado[1][3]} \n ${mercado[2][2]} \n ${mercado[3][3]})
 
-var JSONITO = '{"corDosOlhos":"verde","altura":1.7,"corCabelo":"Preto","nome":"Sara","sobrenome":"Lima","hobbies":["futebol","LOL","Tocar guitarra"],"endereco":{"rua":"jao medeiro","numero":234,"cidade":"são Paulo","estado":"SP"}}'
+let moeda = ["Real", "Euro", "Coroa", "Dolar"]
 
-console.log(JSONITO)
-console.log(JSON.parse(JSONITO))
+console.log(moeda)
+moeda[3] = "Yen"
+console.log(moeda)
+
+var exemplo = [5, 10, 15, 20, 25, 30]
+console.log(exemplo)
+var mudanca2 = exemplo.join( " ** ")
+console.log(mudanca2)
+
+console.clear()
+
+var array = [0, 3, 6]
+console.log(array.length)
+
+let utilizapop = ["Polly", "André", "Gabriel", "Esther", "Jonatas"]
+console.log(utilizapop)
+var mudanca3 = utilizapop.pop()
+console.log(mudanca3)
+
+console.clear()
+
+var nomescarros = ["Audi", "celta", "Uno", "HB20"]
+var mudanca6 = nomescarros.shift()
+
+var tristeza = [true, 40, false, "tristeza em dobro"]
+var mudanca7 = tristeza.unshift("nice")
+console.log(tristeza)
