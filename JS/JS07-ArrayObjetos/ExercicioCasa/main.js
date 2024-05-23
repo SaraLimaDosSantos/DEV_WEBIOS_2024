@@ -1,28 +1,44 @@
-var uni = ["HTML", "1993", "CSS", "1996", "Bootstrap", "2011", "JS", "1995", "React", "2013", "Java", "1995"]
-console.log(uni)
-console.log(uni.length)
-console.log(uni[6])
-var mudanca = uni.toString()
-console.log(mudanca)
-var mudanca1 = uni.join("/")
-console.log(mudanca1)
-var mudanca2 = uni.unshift("IOS")
-console.log(uni)
-
-
-var bidi = [
-    ["HTML", "1993", "CSS"],
-    ["1996", "Bootstrap", "2011"],
-    ["JS", "1995", "React"],
-    ["2013", "Java", "1995"]
+var alunos = [
+    {
+        nome: "Luiza",
+        idade: 18,
+        nota: 8,
+        ano: "3B"
+    },
+    {
+        nome: "Matheus",
+        idade: 17,
+        nota: 6,
+        ano: "2A"
+    },
+    {
+        nome: "João",
+        idade: 19,
+        nota: 9,
+        ano: "3C"
+    },
+    {
+        nome: "Bruna",
+        idade: 15,
+        nota: 9,
+        ano: "1E"
+    },
+    {
+        nome: "Sara",
+        idade: 15,
+        nota: 7,
+        ano: "2C"
+    },
+    {
+        nome: "Julia",
+        idade: 16,
+        nota: 5,
+        ano: "3C"
+    }
 ]
+console.log(alunos)
+console.log(alunos[1])
+console.log(alunos[5].nota)
 
-console.log(bidi)
-console.log(bidi.length)
-console.log(bidi[3][0])
-bidi[2][0] = "JavaScript"
-console.log(bidi)
-delete bidi[3][1]
-console.log(bidi)
-var mudanca3 = bidi.push("pipoca")
-console.log(bidi)
+var alunosEmJailson = JSON.stringify(alunos)
+console.log(alunosEmJailson)
