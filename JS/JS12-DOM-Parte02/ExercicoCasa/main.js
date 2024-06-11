@@ -1,29 +1,28 @@
 //primeiro botão
-function recebeImg() {
-    let img = document.createElement("img");
-    img.src='https://www.google.com/url?sa=i&url=https%3A%2F%2Frollingstone.uol.com.br%2Fnoticia%2Fumbrella-academy-outro-integrante-do-grupo-causou-o-apocalipse-nos-quadrinhos%2F&psig=AOvVaw354p_lldbX0GL1d4omp8s6&ust=1718152408834000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLjw-9Gm0oYDFQAAAAAdAAAAABAn'
-    document.body.appendChild(img);
+var botao = prompt ("clique aqui")
 
-    let fundo = document.getElementById('corpo')
-    fundo.style.backgroundColor = '#262525'
+
+if(botao == "clique aqui"){
+    document.body.style.color = "#262525"
+    let img = document.createElement("img")
+    img.src = "https://img.quizur.com/f/img62cdb3dc066135.87051598.jpg?lastEdited=1657675223"
+    document.body.appendChild(img)
 }
 
 //segundo botão
-function recebeNome(){
-    let nome = window.prompt('digite o seu nome')
-    let mostraNome = document.createElement('p')
-    mostraNome.innerText = `Olà ${nome}, Bem-vindo a nossa academia`
-    document.body.appendChild(mostraNome)
+var botao2 = prompt("Insira seu nome de usuário")
+
+if(botao2 == "Sara"){
+    let nome = document.createElement("nome")
+    nome.innerHTML = "Bem vindo"
+    document.body.appendChild(nome)
 }
 
 //terceito botão
-function recebeNum(){
-    let num = window.prompt('digite um número')
-    if(num <= 10){
-        for(let i = 1;i <= 10;i++){
-            let mostraTabuada = document.createElement('p')
-            mostraTabuada.innerText = `${num} x ${i} = ${num * i}`
-            document.body.appendChild(mostraTabuada)
-        }
+window.alert('Escolha um número')
+function tabuada(){
+    for (let count = 1; count <= 10; count++){
+        document.write(`2 x ${count} = ${2 * count}<br />`);
     }
 }
+tabuada();
